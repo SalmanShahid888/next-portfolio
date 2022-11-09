@@ -8,7 +8,7 @@ const Modal = (props) => {
         setTimeout(()=>{
             setOpen(true)
 
-        }, 5000)
+        }, 10000)
     },[])
     const handleModalClose = (e) =>{
         e.preventDefault();
